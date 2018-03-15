@@ -47,7 +47,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="7ab-OD-Ntj" kind="push" identifier="sendData" id="ZD4-hR-o0Y"/>
+                                    <segue destination="7ab-OD-Ntj" kind="show" identifier="sendData" id="ZD4-hR-o0Y"/>
                                 </connections>
                             </button>
                         </subviews>
