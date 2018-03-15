@@ -14,6 +14,7 @@
 @implementation test2
 - (IBAction)test3:(id)sender {
     NSLog(@"test 3 ------d");
+    NSLog(@"add one line log for test!!!");
     [self.btnTest setTitle:@"test i love you " forState:UIControlStateNormal];
 }
 
