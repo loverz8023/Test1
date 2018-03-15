@@ -13,7 +13,7 @@
 
 @implementation test2
 - (IBAction)test3:(id)sender {
-    NSLog(@"test 3 ------");
+    NSLog(@"test 3 ------d");
     [self.btnTest setTitle:@"test i love you " forState:UIControlStateNormal];
 }
 
