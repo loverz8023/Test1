@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UISegmentedControl *select;
 
@@ -18,6 +19,14 @@
 - (void)viewDidLoad {
     NSLog(@"view did load");
     [super viewDidLoad];
+    
+    _btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    _btn.frame = CGRectMake(50, 150, 150, 100 );
+    [_btn setTitle:@"test btn 22222" forState:UIControlStateNormal];
+    [_btn addTarget:self action:@selector(btnPressed) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:_btn];
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -31,5 +40,12 @@
     NSLog(@"name:%@",name);
 }
 
-
+-(void) btnPressed{
+    NSLog(@"btn pressed ");
+    
+    test2 * v2 = [[test2 alloc] init];
+    
+    [self.navigationController pushViewController:v2 animated:YES];
+    
+}
 @end

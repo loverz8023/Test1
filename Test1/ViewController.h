@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "test2.h"
 @interface ViewController : UIViewController
-
+@property (strong,nonatomic) UIButton * btn;
 
 @end
 
