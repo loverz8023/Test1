@@ -11,5 +11,6 @@
 @interface test2 : UIViewController
 
 @property (strong,nonatomic) NSString * name;
+@property (nonatomic,strong) UITextField * mTxt;
 
 @end

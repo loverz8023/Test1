@@ -17,6 +17,16 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    // 初始化导航控制器的根控制器
+    UIViewController * navRootVC = [[UIViewController alloc] init];
+    navRootVC.view.backgroundColor = [UIColor redColor];
+    
+    UINavigationController * navVC = [[UINavigationController alloc] initWithRootViewController:navRootVC];
+    navRootVC.title = @"设置";
+    // 初始化window window的rootview controller 设置成navVC
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = navVC;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
