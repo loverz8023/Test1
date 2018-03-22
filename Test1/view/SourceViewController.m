@@ -37,6 +37,10 @@
     NSLog(@"destination Str %@",str);
 }
 
+-(void) destinationViewController2:(DestinationViewController *)des return2BoolWithData:(BOOL)is {
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

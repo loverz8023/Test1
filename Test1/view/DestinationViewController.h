@@ -10,8 +10,16 @@
 
 @class DestinationViewController;
 @protocol DestinationViewControllerDelegate <NSObject>
+// 此关键字表示实现协议的类不一定必须要实现
+@optional
 -(void) destinationViewController:(DestinationViewController * ) destinationViewController
              return2SrcVCWithData:(NSString *) str;
+// 此关键字表示实现协议的类必须要实现 否则会编译报错
+@required
+-(void) destinationViewController2:(DestinationViewController *) des return2BoolWithData:(BOOL) is;
+
+
+
 @end
 
 @interface DestinationViewController : UIViewController
