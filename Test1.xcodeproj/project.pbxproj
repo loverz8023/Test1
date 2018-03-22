@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C1B294D2063A06600BAEE0A /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C1B294C2063A06600BAEE0A /* test.c */; };
 		4C5FF21A20638FAF002B1DB8 /* DestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FF21820638FAF002B1DB8 /* DestinationViewController.m */; };
 		4C5FF21B20638FAF002B1DB8 /* DestinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5FF21920638FAF002B1DB8 /* DestinationViewController.xib */; };
 		4C5FF21F206392EF002B1DB8 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FF21D206392EF002B1DB8 /* SourceViewController.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C1B294B2063A06600BAEE0A /* test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		4C1B294C2063A06600BAEE0A /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
 		4C5FF21720638FAF002B1DB8 /* DestinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DestinationViewController.h; sourceTree = "<group>"; };
 		4C5FF21820638FAF002B1DB8 /* DestinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DestinationViewController.m; sourceTree = "<group>"; };
 		4C5FF21920638FAF002B1DB8 /* DestinationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationViewController.xib; sourceTree = "<group>"; };
@@ -160,6 +163,8 @@
 				4C5FF21C206392EF002B1DB8 /* SourceViewController.h */,
 				4C5FF21D206392EF002B1DB8 /* SourceViewController.m */,
 				4C5FF21E206392EF002B1DB8 /* SourceViewController.xib */,
+				4C1B294B2063A06600BAEE0A /* test.h */,
+				4C1B294C2063A06600BAEE0A /* test.c */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C81F89820593B48002BE7C3 /* test2.m in Sources */,
+				4C1B294D2063A06600BAEE0A /* test.c in Sources */,
 				4C5FF21A20638FAF002B1DB8 /* DestinationViewController.m in Sources */,
 				4C67834720580C9D00268F75 /* ViewController.m in Sources */,
 				4C67835220580C9D00268F75 /* main.m in Sources */,
