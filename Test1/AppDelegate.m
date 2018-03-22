@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "view/SourceViewController.h"
+#import "view/DestinationViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,18 +20,27 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     // 初始化导航控制器的根控制器
-    UIViewController * navRootVC = [[UIViewController alloc] init];
-    navRootVC.view.backgroundColor = [UIColor redColor];
+    
+    SourceViewController * navRootVC = [[SourceViewController alloc] init];
+    navRootVC.view.backgroundColor = [UIColor whiteColor];
     
     UINavigationController * navVC = [[UINavigationController alloc] initWithRootViewController:navRootVC];
-    navRootVC.title = @"设置";
+//    navRootVC.title = @"设置";
+    
+//    UIBarButtonItem * leftBtnItem = [[UIBarButtonItem alloc] initWithTitle:@"go" style:UIBarButtonItemStylePlain target:self action:@selector(leftBtnClick)];
+//    leftBtnItem.tintColor = [UIColor whiteColor];
+//    navRootVC.navigationItem.rightBarButtonItem = leftBtnItem;
+//    navVC.navigationBar.barStyle = UIBarStyleBlack;
     // 初始化window window的rootview controller 设置成navVC
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = navVC;
     [self.window makeKeyAndVisible];
     return YES;
 }
-
+-(void) leftBtnClick{
+    NSLog(@"left btn click");
+    
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

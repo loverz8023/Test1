@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C5FF21A20638FAF002B1DB8 /* DestinationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FF21820638FAF002B1DB8 /* DestinationViewController.m */; };
+		4C5FF21B20638FAF002B1DB8 /* DestinationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5FF21920638FAF002B1DB8 /* DestinationViewController.xib */; };
+		4C5FF21F206392EF002B1DB8 /* SourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C5FF21D206392EF002B1DB8 /* SourceViewController.m */; };
+		4C5FF220206392EF002B1DB8 /* SourceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C5FF21E206392EF002B1DB8 /* SourceViewController.xib */; };
 		4C67834420580C9D00268F75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C67834320580C9D00268F75 /* AppDelegate.m */; };
 		4C67834720580C9D00268F75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C67834620580C9D00268F75 /* ViewController.m */; };
 		4C67834A20580C9D00268F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C67834820580C9D00268F75 /* Main.storyboard */; };
@@ -37,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C5FF21720638FAF002B1DB8 /* DestinationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DestinationViewController.h; sourceTree = "<group>"; };
+		4C5FF21820638FAF002B1DB8 /* DestinationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DestinationViewController.m; sourceTree = "<group>"; };
+		4C5FF21920638FAF002B1DB8 /* DestinationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DestinationViewController.xib; sourceTree = "<group>"; };
+		4C5FF21C206392EF002B1DB8 /* SourceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceViewController.h; sourceTree = "<group>"; };
+		4C5FF21D206392EF002B1DB8 /* SourceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceViewController.m; sourceTree = "<group>"; };
+		4C5FF21E206392EF002B1DB8 /* SourceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SourceViewController.xib; sourceTree = "<group>"; };
 		4C67833F20580C9C00268F75 /* Test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C67834220580C9D00268F75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4C67834320580C9D00268F75 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -144,6 +154,12 @@
 				4C81F8952059278D002BE7C3 /* test2.storyboard */,
 				4C81F89720593B48002BE7C3 /* test2.m */,
 				4C81F89920593B58002BE7C3 /* test2.h */,
+				4C5FF21720638FAF002B1DB8 /* DestinationViewController.h */,
+				4C5FF21820638FAF002B1DB8 /* DestinationViewController.m */,
+				4C5FF21920638FAF002B1DB8 /* DestinationViewController.xib */,
+				4C5FF21C206392EF002B1DB8 /* SourceViewController.h */,
+				4C5FF21D206392EF002B1DB8 /* SourceViewController.m */,
+				4C5FF21E206392EF002B1DB8 /* SourceViewController.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -256,6 +272,8 @@
 			files = (
 				4C67834F20580C9D00268F75 /* LaunchScreen.storyboard in Resources */,
 				4C81F8962059278D002BE7C3 /* test2.storyboard in Resources */,
+				4C5FF21B20638FAF002B1DB8 /* DestinationViewController.xib in Resources */,
+				4C5FF220206392EF002B1DB8 /* SourceViewController.xib in Resources */,
 				4C67834C20580C9D00268F75 /* Assets.xcassets in Resources */,
 				4C67834A20580C9D00268F75 /* Main.storyboard in Resources */,
 			);
@@ -283,9 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C81F89820593B48002BE7C3 /* test2.m in Sources */,
+				4C5FF21A20638FAF002B1DB8 /* DestinationViewController.m in Sources */,
 				4C67834720580C9D00268F75 /* ViewController.m in Sources */,
 				4C67835220580C9D00268F75 /* main.m in Sources */,
 				4C67834420580C9D00268F75 /* AppDelegate.m in Sources */,
+				4C5FF21F206392EF002B1DB8 /* SourceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
